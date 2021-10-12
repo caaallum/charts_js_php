@@ -1,0 +1,13 @@
+{
+    "name": "callumspeirs/charts_js_php",
+    "description": "php wrapper for charts js in Drupal 8/9",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "ChartsJsPhp\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=5.6"
+    }
+}
