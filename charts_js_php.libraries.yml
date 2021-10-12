@@ -1,0 +1,8 @@
+chart:
+  version: 1.x
+  header: true
+  js:
+    js/chart.min.js: { }
+    js/driver.js: { }
+  dependencies:
+    - core/jquery

@@ -1,0 +1,5 @@
+name: 'ChartsJS-PHP'
+type: module
+description: 'Helper module to create charts'
+core_version_requirement: ^8 || ^9
+package: 'charts'

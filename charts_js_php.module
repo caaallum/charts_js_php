@@ -1,0 +1,24 @@
+<?php
+
+/**
+ * @file
+ * Contains charts_js_php.module
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function charts_js_php_help($route_name, Drupal\Core\Routing\RouteMatchInterface $route_match): string {
+  switch ($route_name) {
+    case 'help.page.charts_js_wrapper':
+      $output = '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('PHP wrapper around charts JS for drupal 9') . '</p>';
+      return $output;
+
+    default:
+      return '';
+  }
+}
+
