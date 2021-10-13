@@ -1,7 +1,7 @@
 {
     "name": "callumspeirs/charts_js_php",
     "description": "php wrapper for charts js in Drupal 8/9",
-    "type": "library",
+    "type": "drupal-module",
     "autoload": {
         "psr-4": {
             "ChartsJsPhp\\": "src/"
