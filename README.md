@@ -21,7 +21,7 @@ Add js library to page
 ```php
 '#attached' => [
   'library' => [
-    'charts_js_wrapper/chart'
+    'charts_js_php/chart'
   ]
 ]
 ```
