@@ -10,7 +10,8 @@ Install charts_js_php via composer
         {
             "type": "git",
             "url": "https://github.com/CallumSpeirs/charts_js_php"
-        }],
+        }
+    ],
     "require": {
         "callumspeirs/charts_js_php": "dev-master"
     }
